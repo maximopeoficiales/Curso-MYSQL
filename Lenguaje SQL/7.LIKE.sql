@@ -1,0 +1,4 @@
+/* USA LOS METACARACTERES PARA INDICAR QUE BUSQUE NO IMPORTANDO ESOS LADOS */
+SELECT  Prod_id,Prod_Descripcion, Prod_Color
+FROM  Productos
+WHERE CONCAT(Prod_Descripcion,Prod_Color) LIKE '%AD%';  
